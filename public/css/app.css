@@ -9725,13 +9725,23 @@ body {
     Collapse Arrows
 */
 
-a .fa-chevron-down,
-a.collapsed .fa-chevron-up {
+a .fa-chevron-right,
+a.collapsed .fa-chevron-down {
   display: none;
 }
 
-a.collapsed .fa-chevron-down,
-a .fa-chevron-up {
+a.collapsed .fa-chevron-right,
+a .fa-chevron-down {
+  display: inline-block;
+}
+
+a span .fa-chevron-right,
+a.collapsed span .fa-chevron-down {
+  display: none;
+}
+
+a.collapsed span .fa-chevron-right,
+a span .fa-chevron-down {
   display: inline-block;
 }
 
@@ -9964,10 +9974,10 @@ nav {
 }
 
 .accordion__header a {
-  padding: 5px;
   padding-left: 15px;
   min-height: 40px;
   position: relative;
+  padding-top: 10px;
   display: block;
   height: 100%;
   width: 100%;
@@ -9977,9 +9987,16 @@ nav {
 
 .accordion__header i {
   position: absolute;
-  right: 5px;
-  bottom: 5px;
+  right: 4px;
+  bottom: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .accordion__header a {
+    padding-top: 0;
+    line-height: 40px;
+  }
 }
 
 .accordion__list__item {

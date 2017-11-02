@@ -2,8 +2,8 @@
     <div class="accordion mb-1">
         <div class="accordion__header">
             <a data-toggle="collapse" href="#tech-resourse" aria-expanded="true" class="collapsed">ED-TECH INTEGRATION RESOURCES
+                <i class="fa fa-chevron-right"></i>
                 <i class="fa fa-chevron-down"></i>
-                <i class="fa fa-chevron-up"></i>
             </a>
 
         </div>
@@ -38,8 +38,8 @@
     <div class="accordion mb-1">
         <div class="accordion__header">
             <a data-toggle="collapse" href="#web-links" aria-expanded="true" class="collapsed">USEFUL WEB LIKS
+                <i class="fa fa-chevron-right"></i>
                 <i class="fa fa-chevron-down"></i>
-                <i class="fa fa-chevron-up"></i>
             </a>
 
         </div>
@@ -64,8 +64,8 @@
     <div class="accordion mb-1">
         <div class="accordion__header">
             <a data-toggle="collapse" href="#it-help" aria-expanded="true" class="collapsed">IT HELP & SUPPORT
+                <i class="fa fa-chevron-right"></i>
                 <i class="fa fa-chevron-down"></i>
-                <i class="fa fa-chevron-up"></i>
             </a>
 
         </div>
@@ -90,8 +90,8 @@
     <div class="accordion">
         <div class="accordion__header">
             <a data-toggle="collapse" href="#feedback" aria-expanded="true" class="collapsed">EXTRANET FEEDBACK
+                <i class="fa fa-chevron-right"></i>
                 <i class="fa fa-chevron-down"></i>
-                <i class="fa fa-chevron-up"></i>
             </a>
 
         </div>
