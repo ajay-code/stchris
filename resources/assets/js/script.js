@@ -1,8 +1,8 @@
-(function () {
-    $(window).on('resize', function () {
-        resize();
-    })
-})();
+// (function () {
+//     $(window).on('resize', function () {
+//         resize();
+//     })
+// })();
 
 function resize() {
     var gsuit = $('#gsuit');

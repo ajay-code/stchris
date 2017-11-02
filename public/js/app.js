@@ -63207,11 +63207,11 @@ module.exports = function listToStyles (parentId, list) {
 /* 172 */
 /***/ (function(module, exports) {
 
-(function () {
-    $(window).on('resize', function () {
-        resize();
-    });
-})();
+// (function () {
+//     $(window).on('resize', function () {
+//         resize();
+//     })
+// })();
 
 function resize() {
     var gsuit = $('#gsuit');

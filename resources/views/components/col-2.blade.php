@@ -2,15 +2,15 @@
     <!-- GSUIT -->
     <div class="border-blue  mb-1">
         <div class="gsuit-header bg-blue w-100">
-            <span class="gsuit-header-span">
-                G-SUIT:
-            </span>
-            Launch apps here
-            <span class="float-right d-md-none">
-                <a class="collapsed" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+            <a class="collapsed collapse-link" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+                <span class="gsuit-header-span">
+                    G-SUIT:
+                </span>
+                Launch apps here
+                <span class="float-right mr-1">
                     <i class="fa fa-chevron-down"></i>
                     <i class="fa fa-chevron-up"></i>
-                </a>
+            </a>
             </span>
         </div>
         <div id="gsuit" class="collapse">
@@ -82,15 +82,15 @@
     <!-- SCHOOL INFO -->
     <div class=" border-blue">
         <div class="school-header bg-blue w-100">
-            <span class="school-header-span">
-                School-Info:
-            </span>
-            Sign-in to your staff account to view
-            <span class="float-right d-md-none">
-                <a class="collapsed" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+            <a class="collapsed collapse-link" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+                <span class="school-header-span">
+                    School-Info:
+                </span>
+                Sign-in to your staff account to view
+                <span class="float-right mr-1">
                     <i class="fa fa-chevron-down"></i>
                     <i class="fa fa-chevron-up"></i>
-                </a>
+            </a>
             </span>
         </div>
         <div id="school-info" class="collapse">

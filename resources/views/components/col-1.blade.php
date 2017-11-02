@@ -1,13 +1,14 @@
 <div class="border-blue">
     <div class="twitter-header bg-blue w-100">
-        <span class="twitter-header-span">
-            <i class="fa fa-twitter twitter-header-icon"></i> TWITTER:</span> Connect learn share
-        <span class="float-right d-md-none">
-            <a class="collapsed" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+        <a class="collapsed collapse-link" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+            <span class="twitter-header-span">
+                <i class="fa fa-twitter twitter-header-icon"></i> TWITTER:
+            </span> Connect learn share
+            <span class="float-right mr-1">
                 <i class="fa fa-chevron-down"></i>
                 <i class="fa fa-chevron-up"></i>
-            </a>
-        </span>
+            </span>
+        </a>
     </div>
     <div id="twitter-feed" class="collapse d-flex justify-content-center">
         <a class="twitter-timeline" href="https://twitter.com/search?q=%23stcbh%20from%3Agboyleuk" data-widget-id="925611658092806145"
