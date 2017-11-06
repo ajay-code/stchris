@@ -9760,8 +9760,8 @@ a:hover {
   width: 100%;
   text-decoration: none;
   padding-left: 15px;
-  min-height: 40px;
-  line-height: 40px;
+  min-height: 30px;
+  line-height: 30px;
 }
 
 /* 
@@ -9798,6 +9798,22 @@ nav {
 .search-form__input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.search-form__input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.search-form__input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.search-form__input::-ms-input-placeholder {
+  font-style: italic;
+}
+
+.search-form__input::placeholder {
+  font-style: italic;
 }
 
 .search-form__button {
@@ -9902,9 +9918,12 @@ nav {
 
 .gsuit-footer a {
   display: block;
+  padding: 4px;
   height: 100%;
   width: 100%;
-  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  color: #3d63e7;
   text-decoration: none;
 }
 
@@ -9957,9 +9976,12 @@ nav {
 
 .school-footer a {
   display: block;
+  padding: 4px;
   height: 100%;
   width: 100%;
-  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  color: #3d63e7;
   text-decoration: none;
 }
 

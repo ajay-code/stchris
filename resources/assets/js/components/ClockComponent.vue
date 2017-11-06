@@ -3,35 +3,36 @@
     <div class="col-6 col-sm-5 col-lg-4">
       <span v-text="time" class="time"></span>
     </div>
-    <div class="col-6 col-sm-5 col-lg-4 text-small">
-      <small v-text="date"></small><br>
-      <small v-text="day"></small>
+    <div class="col-6 col-sm-5 col-lg-4 text-small line-height">
+      <small v-text="day"></small><br>
+      <small v-text="date"></small>
     </div>
   </div>
 </template>
 
 <script>
-import moment from "moment";
+
 
 export default {
   data() {
     return {
-      dateTime: moment().format()
+      dateTime: moment().format(),
+      tz : 'Asia/Qatar'
     };
   },
 
   computed: {
       time(){
-          return moment(this.dateTime).format('HH:mm');
+          return moment(this.dateTime).tz(this.tz).format('HH:mm');
       },
       date(){
-          return moment(this.dateTime).format('MMMM D, YYYY');
+          return moment(this.dateTime).tz(this.tz).format('DD MMMM, YYYY');
       },
       day(){
-          return moment(this.dateTime).format('dddd');
+          return moment(this.dateTime).tz(this.tz).format('dddd');
       },
       seconds(){
-         return moment(this.dateTime).format('HH:mm::ss');
+         return moment(this.dateTime).tz(this.tz).format('HH:mm::ss');
       }
   },
 
@@ -57,6 +58,9 @@ export default {
     font-weight: bold;
     padding: 5px 10px;
     font-style: normal;
+  }
+  .line-height{
+    line-height: 16px;
   }
 </style>
  

@@ -1,5 +1,5 @@
 
-window._ = require('lodash');
+// window._ = require('lodash');
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
@@ -51,5 +51,6 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 // });
-
+window.moment = require("moment");
+window.moment.tz = require('moment-timezone');
 require('./script');

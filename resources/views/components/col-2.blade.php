@@ -3,8 +3,8 @@
     <div class="border-blue  mb-1">
         <div class="gsuit-header bg-blue w-100">
             <a class="collapse-link" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
-                <span class="gsuit-header-span">
-                    G-SUIT:
+                <span class="gsuit-header__span">
+                    G-SUITE:
                 </span>
                 Launch apps here
                 <span class="float-right mr-1">
@@ -68,11 +68,11 @@
                     </span>
                 </div>
             </div>
-            <div class="gsuit-footer bg-blue w-100 text-center">
+            <div class="gsuit-footer bg-white w-100 text-right">
                 <a class="collapsed" href="#hidden-gsuit-icons" data-toggle="collapse" aria-expanded="false">
                     More Apps
-                    <i class="fa fa-chevron-right float-right mr-2"></i>
-                    <i class="fa fa-chevron-down float-right mr-2"></i>
+                    <i class="fa fa-chevron-right"></i>
+                    <i class="fa fa-chevron-down "></i>
                 </a>
             </div>
         </div>
@@ -83,10 +83,10 @@
     <div class=" border-blue">
         <div class="school-header bg-blue w-100">
             <a class="collapse-link" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
-                <span class="school-header-span">
-                    School-Info:
+                <span class="school-header__span">
+                    SCHOOL INFO:
                 </span>
-                Sign-in to your staff account to view
+                Sign-in to view
                 <span class="float-right mr-1">
                     <i class="fa fa-chevron-right"></i>
                     <i class="fa fa-chevron-down"></i>
@@ -94,7 +94,7 @@
             </span>
         </div>
         <div id="school-info" class="collapse">
-            <div class="school-body bg-white h-100">
+            <div class="school-body bg-gray h-100">
                 <div class="school-list">
                     <a class="school-list__item mt-1" href="#">
                         <img src="/icons/Portal.png" alt="Portal">
@@ -171,11 +171,11 @@
                 </div>
 
             </div>
-            <div class="school-footer bg-blue w-100 text-center">
+            <div class="school-footer bg-white w-100 text-right">
                 <a class="collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
-                    More Apps
-                    <i class="fa fa-chevron-right float-right mr-2"></i>
-                    <i class="fa fa-chevron-down float-right mr-2"></i>
+                    More Docs
+                    <i class="fa fa-chevron-right"></i>
+                    <i class="fa fa-chevron-down"></i>
                 </a>
             </div>
         </div>
