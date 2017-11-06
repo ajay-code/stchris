@@ -1,6 +1,6 @@
 <div class="row no-gutter">
     <!-- SCHOOL INFO -->
-    <div class="col-12 order-md-2  border-blue  mb-1">
+    <div class="col-12 order-md-2 no-padding  border-blue  mb-1">
         <div class="school-header bg-blue w-100">
             <a class="collapse-link" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
                 <span class="school-header__span">
@@ -89,7 +89,6 @@
                         </a>
                     </span>
                 </div>
-
             </div>
             <div class="school-footer bg-white w-100 text-right">
                 <a class="collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
@@ -101,7 +100,7 @@
         </div>
     </div>
     <!-- GSUIT -->
-    <div class="col-12 order-md-1  border-blue ">
+    <div class="col-12 order-md-1 no-padding border-blue ">
         <div class="gsuit-header bg-blue w-100">
             <a class="collapse-link" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
                 <span class="gsuit-header__span">
@@ -180,5 +179,4 @@
 
     </div>
 
-    
 </div>

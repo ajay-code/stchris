@@ -1,16 +1,16 @@
 <nav class="mb-1 pt-3 pb-3">
     <div class="row no-gutters">
-        <div class="col-md-6">
+        <div class="col-md-6 no-padding">
             <div class="row no-gutters">
                 <div class="col-4 col-sm-3 col-md-2">
                     <img src="/icons/logo.png" alt="Logo" class="img-fluid">
                 </div>
-                <div class="col-8">
+                <div id="app" class="col-8">
                     <clock></clock>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 no-padding">
             <div class="row no-gutters align-items-center h-100 search-form-padding">
                 <form class="search-form" action="http://www.google.com/search" method="get" target="_blank">
                     <div class="form-row">
@@ -23,9 +23,8 @@
                             </button>
                         </div>
                     </div>
+                </form>
             </div>
-            </form>
         </div>
-    </div>
     </div>
 </nav>

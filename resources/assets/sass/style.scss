@@ -78,7 +78,7 @@ nav {
     &:focus {
         box-shadow: none;
     }
-    &::placeholder{
+    &::placeholder {
         font-style: italic;
     }
 }
@@ -278,10 +278,14 @@ nav {
     }
 }
 
-@media (max-width: 767px){
-    .accordion__header a{
+@media (max-width: 767px) {
+    .accordion__header a {
         padding-top: 0;
-        line-height: 40px;
+        min-height: 30px;
+        line-height: 30px;
+    }
+    .accordion__list__item {
+        min-height: 30px;
     }
 }
 

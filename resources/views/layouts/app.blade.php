@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div id="app" class="container-fluid no-padding">
+    <div class="container-fluid no-padding">
         @include('layouts.partials.nav') 
         @yield('content')
     </div>
