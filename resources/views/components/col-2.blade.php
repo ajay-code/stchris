@@ -1,86 +1,6 @@
-<div class="h-100">
-    <!-- GSUIT -->
-    <div class="border-blue  mb-1">
-        <div class="gsuit-header bg-blue w-100">
-            <a class="collapse-link" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
-                <span class="gsuit-header__span">
-                    G-SUITE:
-                </span>
-                Launch apps here
-                <span class="float-right mr-1">
-                    <i class="fa fa-chevron-right"></i>
-                    <i class="fa fa-chevron-down"></i>
-            </a>
-            </span>
-        </div>
-        <div id="gsuit" class="collapse">
-            <div class="gsuit-body bg-gray h-100">
-                <div class="gsuit-list">
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/drive.png" alt="google Drive">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/Docs.png" alt="google Docs">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/sheets.png" alt="google Sheets">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/Slides.png" alt="google Slides">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/Gmail.png" alt="google Gmail">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/hangout.png" alt="google Hangout">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/Forms.png" alt="google Forms">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/drawings.png" alt="google Drawings">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/googl22.png" alt="google Goo GL">
-                    </a>
-                    <a class="gsuit-list__item mt-1" href="#">
-                        <img src="/icons/Youtube2.png" alt="google Youtube">
-                    </a>
-                    <span id="hidden-gsuit-icons" class="collapse">
-                        <a class="gsuit-list__item mt-1" href="#">
-                            <img src="/icons/class.png" alt="google Class">
-                        </a>
-                        <a class="gsuit-list__item mt-1" href="#">
-                            <img src="/icons/Calendar.png" alt="google Calendar">
-                        </a>
-                        <a class="gsuit-list__item mt-1" href="#">
-                            <img src="/icons/bookmarks.png" alt="google Bookmarks">
-                        </a>
-                        <a class="gsuit-list__item mt-1" href="#">
-                            <img src="/icons/photos.png" alt="google Photos">
-                        </a>
-                        <a class="gsuit-list__item mt-1" href="#">
-                            <img src="/icons/webstore2.png" alt="google Webstore">
-                        </a>
-                        <a class="gsuit-list__item mt-1" href="#">
-                            <img src="/icons/learningcenter3.png" alt="google Learning Center">
-                        </a>
-                    </span>
-                </div>
-            </div>
-            <div class="gsuit-footer bg-white w-100 text-right">
-                <a class="collapsed" href="#hidden-gsuit-icons" data-toggle="collapse" aria-expanded="false">
-                    More Apps
-                    <i class="fa fa-chevron-right"></i>
-                    <i class="fa fa-chevron-down "></i>
-                </a>
-            </div>
-        </div>
-
-    </div>
-
+<div class="row no-gutter">
     <!-- SCHOOL INFO -->
-    <div class=" border-blue">
+    <div class="col-12 order-md-2  border-blue  mb-1">
         <div class="school-header bg-blue w-100">
             <a class="collapse-link" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
                 <span class="school-header__span">
@@ -180,4 +100,85 @@
             </div>
         </div>
     </div>
+    <!-- GSUIT -->
+    <div class="col-12 order-md-1  border-blue ">
+        <div class="gsuit-header bg-blue w-100">
+            <a class="collapse-link" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+                <span class="gsuit-header__span">
+                    G-SUITE:
+                </span>
+                Launch apps here
+                <span class="float-right mr-1">
+                    <i class="fa fa-chevron-right"></i>
+                    <i class="fa fa-chevron-down"></i>
+            </a>
+            </span>
+        </div>
+        <div id="gsuit" class="collapse">
+            <div class="gsuit-body bg-gray h-100">
+                <div class="gsuit-list">
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/drive.png" alt="google Drive">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/Docs.png" alt="google Docs">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/sheets.png" alt="google Sheets">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/Slides.png" alt="google Slides">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/Gmail.png" alt="google Gmail">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/hangout.png" alt="google Hangout">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/Forms.png" alt="google Forms">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/drawings.png" alt="google Drawings">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/googl22.png" alt="google Goo GL">
+                    </a>
+                    <a class="gsuit-list__item mt-1" href="#">
+                        <img src="/icons/Youtube2.png" alt="google Youtube">
+                    </a>
+                    <span id="hidden-gsuit-icons" class="collapse">
+                        <a class="gsuit-list__item mt-1" href="#">
+                            <img src="/icons/class.png" alt="google Class">
+                        </a>
+                        <a class="gsuit-list__item mt-1" href="#">
+                            <img src="/icons/Calendar.png" alt="google Calendar">
+                        </a>
+                        <a class="gsuit-list__item mt-1" href="#">
+                            <img src="/icons/bookmarks.png" alt="google Bookmarks">
+                        </a>
+                        <a class="gsuit-list__item mt-1" href="#">
+                            <img src="/icons/photos.png" alt="google Photos">
+                        </a>
+                        <a class="gsuit-list__item mt-1" href="#">
+                            <img src="/icons/webstore2.png" alt="google Webstore">
+                        </a>
+                        <a class="gsuit-list__item mt-1" href="#">
+                            <img src="/icons/learningcenter3.png" alt="google Learning Center">
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="gsuit-footer bg-white w-100 text-right">
+                <a class="collapsed" href="#hidden-gsuit-icons" data-toggle="collapse" aria-expanded="false">
+                    More Apps
+                    <i class="fa fa-chevron-right"></i>
+                    <i class="fa fa-chevron-down "></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    
 </div>

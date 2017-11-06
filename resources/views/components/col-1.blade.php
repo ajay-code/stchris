@@ -2,7 +2,7 @@
     <div class="twitter-header bg-blue w-100">
         <a class="collapse-link" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
             <span class="twitter-header__span">
-                <i class="fa fa-twitter twitter-header-icon"></i> TWITTER:
+            TWITTER:
             </span> Connect learn share
             <span class="float-right mr-1">
                 <i class="fa fa-chevron-right"></i>
