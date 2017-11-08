@@ -1,4 +1,4 @@
-<nav class="mb-1 pt-3 pb-3">
+<nav class="no-padding bg-primary mb-1 pt-3 pb-3">
     <div class="row no-gutters">
         <div class="col-md-6 no-padding">
             <div class="row no-gutters">
@@ -17,8 +17,8 @@
                         <div class="search-form__input__container">
                             <input id="google-search" type="text" name="q" class="form-control search-form__input" id="inlineFormInput" placeholder="Search Google">
                         </div>
-                        <div class=" ml-auto search-form__button__container">
-                            <button name="submit" class="search-form__button  h-100">
+                        <div class=" ml-auto  search-form__button__container">
+                            <button name="submit" class="bg-primary search-form__button  h-100">
                                 <i class="fa fa-google"></i>
                             </button>
                         </div>

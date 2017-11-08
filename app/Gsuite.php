@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Gsuit extends Model
+class Gsuite extends Model
 {
     public $timestamps = false;
 }

@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Gsuite;
+use App\Sidebar;
+use App\SchoolInformation;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -12,6 +15,9 @@ class MainController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(){
-        return view('index');
+        $gsuites = Gsuite::all();
+        $schoolInformations = SchoolInformation::all();
+        $sidebars = Sidebar::all();
+        return view('index', compact('gsuites', 'schoolInformations', 'sidebars'));
     }
 }
