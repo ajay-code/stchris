@@ -12,9 +12,9 @@ function resize() {
 
 function addCollapsed(){
      var w = $(window).width();
-     if(w < 768){
+     if(w >= 768){
          $('.collapse-link').each(function(index,elem){
-             $(elem).addClass('collapsed')
+             $(elem).removeClass('collapsed')
          });
      }
 }

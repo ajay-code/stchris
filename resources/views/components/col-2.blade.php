@@ -2,7 +2,7 @@
 	<!-- SCHOOL INFO -->
 	<div class="col-12 order-md-2 no-padding  border-primary  mb-1">
 		<div class="school-header bg-primary w-100">
-			<a class="collapse-link" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+			<a class="collapse-link {{ setting('collapse.school-info') ? 'collapsed':'' }}" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
 				<span class="school-header__span">
 					SCHOOL INFO:
 				</span>
@@ -48,7 +48,7 @@
 	<!-- GSUIT -->
 	<div class="col-12 order-md-1 no-padding border-primary mb-1">
 		<div class="gsuit-header bg-primary w-100">
-			<a class="collapse-link" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
+			<a class="collapse-link {{ setting('collapse.g-suite') ? 'collapsed':'' }}" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
 				<span class="gsuit-header__span">
 					G-SUITE:
 				</span>

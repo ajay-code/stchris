@@ -1,6 +1,6 @@
 <div class="border-primary">
     <div class="twitter-header bg-primary w-100">
-        <a class="collapse-link" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="twitter-feed">
+        <a class="collapse-link {{ setting('collapse.twitter_feed') ? 'collapsed':'' }}" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="twitter-feed">
             <span class="twitter-header__span">
             TWITTER:
             </span> Connect learn share
