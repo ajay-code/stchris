@@ -9933,6 +9933,12 @@ nav {
   display: inline !important;
 }
 
+@media (max-width: 767px) {
+  #hidden-gsuit-icons {
+    display: inline !important;
+  }
+}
+
 .gsuit-footer a {
   display: block;
   padding: 4px;
@@ -10007,6 +10013,12 @@ nav {
 
 #hidden-school-icons.show {
   display: inline !important;
+}
+
+@media (max-width: 767px) {
+  #hidden-school-icons {
+    display: inline !important;
+  }
 }
 
 .school-footer a {

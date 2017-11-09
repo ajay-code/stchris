@@ -2,7 +2,7 @@
 	@foreach($sidebars as $sidebar)
 	<div class="accordion {{ (!$loop->last) ? 'mb-1': '' }}">
 		<div class="accordion__header bg-primary">
-			<a data-toggle="collapse" href="#collapse-id-{{$sidebar->id}}" aria-expanded="true" class="collapsed">
+			<a data-toggle="collapse" href="#collapse-id-{{$sidebar->id}}" aria-expanded="true" class="text-center text-md-left collapsed">
 				<span class="accordian__hearder__text">
 					{{ $sidebar->text }}
 				</span>
