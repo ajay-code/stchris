@@ -19,5 +19,25 @@ function addCollapsed(){
      }
 }
 
-resize();
-addCollapsed();
+function openOnlyOneOnMobile(){
+    $(".collapse-link").click(function (elem) {
+        if ($(window).width() <= 767) {
+            $(".collapse-block").each(function(index,elem){
+                $(elem).collapse('hide');
+            });
+            $(elem.currentTarget).collapse('show');
+        }
+    });
+}
+function openSchoolInfoByDafaultOnMobile(){
+    if ($(window).width() <= 767) {
+        $(".collapse-block").not('#school-info').each(function (index, elem) {
+            $(elem).collapse('hide');
+        });
+    }
+}
+
+// resize();
+// addCollapsed();
+openOnlyOneOnMobile();
+openSchoolInfoByDafaultOnMobile()

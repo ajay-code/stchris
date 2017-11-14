@@ -15,10 +15,11 @@
 				</div>
 			</a>
 		</div>
-		<div id="school-info" class="collapse-block collapse show {{ setting('collapse.school-info') ? '':'show' }}">
-			<div class="school-body bg-gray h-100 d-flex justify-content-center align-content-center">
+		<div id="school-info" class="collapse {{ setting('collapse.school-info') ? '':'show' }}">
+			<div class="school-body bg-gray h-100">
 				<div class="school-list">
-							@php $hiddenSchoolInformations = $schoolInformations->splice(15); @endphp @foreach($schoolInformations as $schoolInformation)
+					
+					@php $hiddenSchoolInformations = $schoolInformations->splice(15); @endphp @foreach($schoolInformations as $schoolInformation)
 					<a class="school-list__item mt-1 text-center" target="_blank" href="{{$schoolInformation->link}}">
 						<img class="school-list__item__image" src="{{Voyager::image($schoolInformation->image)}}" alt="">
 						<p class="school-list__item__text color-gray ">{{$schoolInformation->text}}</p>
@@ -62,7 +63,7 @@
 				</div>
 			</a>
 		</div>
-		<div id="gsuit" class="collapse-block collapse show {{ setting('collapse.g-suite') ? '':'show' }}">
+		<div id="gsuit" class="collapse {{ setting('collapse.g-suite') ? '':'show' }}">
 			<div class="gsuit-body bg-gray h-100">
 				<div class="gsuit-list">
 					@php $hiddenGsuites = $gsuites->splice(8); @endphp @foreach($gsuites as $gsuite)

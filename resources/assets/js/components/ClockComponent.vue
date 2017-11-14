@@ -50,9 +50,6 @@ export default {
 </script>
 
 <style scoped>
-  div{
-    font-style: italic;
-  }
   .time{
     font-size: 36px; 
     font-weight: bold;

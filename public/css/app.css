@@ -10002,12 +10002,11 @@ nav {
 }
 
 .school-list__item {
-  padding: 5px;
-  width: 90px;
   height: 105px;
+  width: 90px;
+  margin-right: 4px;
   background-color: #fff;
   display: block;
-  margin-left: 4px;
   float: left;
   text-decoration: none !important;
 }
@@ -10018,8 +10017,8 @@ nav {
 }
 
 .school-list__item__image {
-  width: 64px;
-  height: 64px;
+  max-width: 64px;
+  max-height: 64px;
 }
 
 .school-list__item__text {

@@ -8,7 +8,7 @@
 		@endphp
 	<div class="accordion {{ (!$loop->last) ? 'mb-1': '' }}">
 		<div class="accordion__header bg-primary">
-			<a data-toggle="collapse" href="#collapse-id-{{$sidebar->id}}" aria-expanded="true" class="text-center text-md-left {{ $collapse ? 'collapsed': '' }}">
+			<a data-toggle="collapse" href="#collapse-id-{{$sidebar->id}}" aria-expanded="true" class="text-center text-md-left collapse-link {{ $collapse ? 'collapsed': '' }}">
 					<div class="row">
 						<div class="col-10 accordian__hearder__text">
 							{{ $sidebar->text }}
@@ -20,7 +20,7 @@
 					</div>
 			</a>
 		</div>
-		<div id="collapse-id-{{$sidebar->id}}" class="collapse {{ $collapse ? '': 'show' }} accordion__list">
+		<div id="collapse-id-{{$sidebar->id}}" class="collapse-block collapse {{ $collapse ? '': 'show' }} accordion__list">
 			@foreach($sidebar->links as $link)
 			<div class="accordion__list__item border-top-primary">
 					<a href="{{ $link->link ? $link->link :'#' }}" class="">

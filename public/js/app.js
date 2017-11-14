@@ -35377,8 +35377,28 @@ function addCollapsed() {
     }
 }
 
-resize();
-addCollapsed();
+function openOnlyOneOnMobile() {
+    $(".collapse-link").click(function (elem) {
+        if ($(window).width() <= 767) {
+            $(".collapse-block").each(function (index, elem) {
+                $(elem).collapse('hide');
+            });
+            $(elem.currentTarget).collapse('show');
+        }
+    });
+}
+function openSchoolInfoByDafaultOnMobile() {
+    if ($(window).width() <= 767) {
+        $(".collapse-block").not('#school-info').each(function (index, elem) {
+            $(elem).collapse('hide');
+        });
+    }
+}
+
+// resize();
+// addCollapsed();
+openOnlyOneOnMobile();
+openSchoolInfoByDafaultOnMobile();
 
 /***/ }),
 /* 159 */
@@ -46288,7 +46308,7 @@ exports = module.exports = __webpack_require__(165)(undefined);
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-a50a6fe6]{\n  font-style: italic;\n}\n.time[data-v-a50a6fe6]{\n  font-size: 36px; \n  font-weight: bold;\n  padding: 5px 10px;\n  font-style: normal;\n}\n.date[data-v-a50a6fe6]{\n  font-size: 18px;\n}\n.line-height[data-v-a50a6fe6]{\n  line-height: 16px;\n}\n", ""]);
+exports.push([module.i, "\n.time[data-v-a50a6fe6]{\n  font-size: 36px; \n  font-weight: bold;\n  padding: 5px 10px;\n  font-style: normal;\n}\n.date[data-v-a50a6fe6]{\n  font-size: 18px;\n}\n.line-height[data-v-a50a6fe6]{\n  line-height: 16px;\n}\n", ""]);
 
 // exports
 
