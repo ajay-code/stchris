@@ -38,8 +38,9 @@
 				</div>
 			</div>
 			<div class="school-footer bg-white w-100 text-right d-none d-md-block">
-				<a class="collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
-					More Docs
+				<a class="more-less collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
+					<span class="more">More Docs</span>
+					<span class="less">Less Docs</span>
 					<i class="fa fa-chevron-right"></i>
 					<i class="fa fa-chevron-down"></i>
 				</a>
@@ -86,8 +87,9 @@
 				</div>
 			</div>
 			<div class="gsuit-footer bg-white w-100 text-right d-none d-md-block">
-				<a class="collapsed" href="#hidden-gsuit-icons" data-toggle="collapse" aria-expanded="false">
-					More Apps
+				<a class="more-less collapsed" href="#hidden-gsuit-icons" data-toggle="collapse" aria-expanded="false">
+					<span class="more">More Apps</span>
+					<span class="less">Less Apps</span>
 					<i class="fa fa-chevron-right"></i>
 					<i class="fa fa-chevron-down "></i>
 				</a>

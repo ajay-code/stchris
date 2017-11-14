@@ -56,7 +56,17 @@ nav {
 }
 
 .logo {
-    padding: 0 10px;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+.logo__image{
+    height: 100%;
+}
+@media (max-width: 767px){
+ .logo {
+     margin-top: -16px;
+     margin-bottom: 0;
+ }
 }
 
 .search-form-padding {
@@ -173,9 +183,9 @@ nav {
 }
 
 .gsuit-list__item {
-    padding: 10px;
-    width: 120px;
-    height: 130px;
+    padding: 5px;
+    width: 90px;
+    height: 105px;
     background-color: #fff;
     display: block;
     margin-left: 4px;
@@ -188,7 +198,7 @@ nav {
 
 .gsuit-list__item__image {
     width: 64px;
-    height: 76px;
+    height: 64px;
 }
 
 .gsuit-list__item__text {
@@ -302,6 +312,15 @@ nav {
     }
 }
 
+.more-less.collapsed .more,
+.more-less .less {
+    display: inline-block
+}
+
+.more-less.collapsed .less,
+.more-less .more {
+    display: none;
+}
 
 /* 
     Accordion
@@ -339,7 +358,7 @@ nav {
 .accordion__list__item {
     display: flex;
     font-size: 12px;
-    padding-left: 15px;
+    padding-left: 10px;
     min-height: 40px;
     line-height: 40px;
     color: #7e7e7e;
@@ -347,9 +366,54 @@ nav {
     a {
         color: #7e7e7e;
         text-decoration: none;
+        display: block;
+        width: 100%;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 20px;
+        span {
+            position: absolute;
+            top: 50%;
+            right: 2px;
+            font-size: 10px;
+            transform: translate(0, -50%);
+        }
+        i {
+            position: absolute;
+            top: 10px;
+            left: 2px;
+            transform: translate(0, -50%);
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:900px){
+    .accordion__list__item{ 
+        a {
+            font-size: 10px;
+        }
     }
 }
 
 .accordion__header a{
     display: block;
+}
+
+
+/* 
+    OverWrittern Bootsstrap
+*/
+$pixels:5px; 
+.mb-1{
+    margin-bottom: $pixels !important;
+}
+@include media-breakpoint-only(md) {
+    .pl-md-1{
+        padding-left: $pixels !important;
+    }
+    
+    .pr-md-1 {
+        padding-right: $pixels !important;
+    }
 }

@@ -2,10 +2,10 @@
     <div class="row no-gutters">
         <div class="col-md-6 no-padding">
             <div class="row no-gutters">
-                <div class="col-4 col-sm-3 col-md-2">
-                    <img src="/icons/logo.png" alt="Logo" class="img-fluid">
+                <div class="col-4 col-sm-4 col-md-2 logo">
+                    <img src="/icons/logo.png" alt="Logo" class="img-fluid logo__image">
                 </div>
-                <div id="app" class="col-8">
+                <div id="app" class="col-8 col-sm-8 col-md-10">
                     <clock></clock>
                 </div>
             </div>

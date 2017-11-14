@@ -46288,7 +46288,7 @@ exports = module.exports = __webpack_require__(165)(undefined);
 
 
 // module
-exports.push([module.i, "\ndiv[data-v-a50a6fe6]{\n  font-style: italic;\n}\n.time[data-v-a50a6fe6]{\n  font-size: 2em; \n  font-weight: bold;\n  padding: 5px 10px;\n  font-style: normal;\n}\n.line-height[data-v-a50a6fe6]{\n  line-height: 16px;\n}\n", ""]);
+exports.push([module.i, "\ndiv[data-v-a50a6fe6]{\n  font-style: italic;\n}\n.time[data-v-a50a6fe6]{\n  font-size: 36px; \n  font-weight: bold;\n  padding: 5px 10px;\n  font-style: normal;\n}\n.date[data-v-a50a6fe6]{\n  font-size: 18px;\n}\n.line-height[data-v-a50a6fe6]{\n  line-height: 16px;\n}\n", ""]);
 
 // exports
 
@@ -46804,7 +46804,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row no-gutters align-items-center h-100" }, [
-    _c("div", { staticClass: "col-6 col-sm-5 col-lg-4" }, [
+    _c("div", { staticClass: "col-6 col-sm-6 col-md-4 col-lg-4 pl-1" }, [
       _c("span", {
         staticClass: "time",
         domProps: { textContent: _vm._s(_vm.time) }
@@ -46813,7 +46813,10 @@ var render = function() {
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "col-6 col-sm-5 col-lg-4 text-small line-height" },
+      {
+        staticClass:
+          "col-6 col-sm-6 col-md-6 col-lg-6 date text-small line-height pl-2"
+      },
       [
         _c("small", { domProps: { textContent: _vm._s(_vm.day) } }),
         _c("br"),

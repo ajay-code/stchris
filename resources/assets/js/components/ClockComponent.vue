@@ -1,9 +1,9 @@
 <template>
   <div class="row no-gutters align-items-center h-100">
-    <div class="col-6 col-sm-5 col-lg-4">
+    <div class="col-6 col-sm-6 col-md-4 col-lg-4 pl-1">
       <span v-text="time" class="time"></span>
     </div>
-    <div class="col-6 col-sm-5 col-lg-4 text-small line-height">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 date text-small line-height pl-2">
       <small v-text="day"></small><br>
       <small v-text="date"></small>
     </div>
@@ -54,10 +54,13 @@ export default {
     font-style: italic;
   }
   .time{
-    font-size: 2em; 
+    font-size: 36px; 
     font-weight: bold;
     padding: 5px 10px;
     font-style: normal;
+  }
+  .date{
+    font-size: 18px;
   }
   .line-height{
     line-height: 16px;
