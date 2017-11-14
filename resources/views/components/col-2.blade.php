@@ -3,15 +3,16 @@
 	<div class="col-12 order-md-2 no-padding  border-primary  mb-1">
 		<div class="school-header bg-primary w-100">
 			<a class="text-center text-md-left collapse-link {{ setting('collapse.school-info') ? 'collapsed':'' }}" href="#school-info" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
-				<span class="school-header__span">
-					SCHOOL INFO:
-				</span>
-				Sign-in to view
-				<span class="float-right mr-3">
-					<i class="fa fa-chevron-right"></i>
-					<i class="fa fa-chevron-down"></i>
+				<div class="row">
+					<div class="col-10 ">
+						<span class="school-header__span">SCHOOL INFO:</span> Sign-in to view
+					</div>
+					<div class="col-2 d-flex justify-content-center align-items-center">
+						<i class="fa fa-chevron-right"></i>
+						<i class="fa fa-chevron-down"></i>
+					</div>
+				</div>
 			</a>
-			</span>
 		</div>
 		<div id="school-info" class="collapse {{ setting('collapse.school-info') ? '':'show' }}">
 			<div class="school-body bg-gray h-100">
@@ -49,15 +50,17 @@
 	<div class="col-12 order-md-1 no-padding border-primary mb-1">
 		<div class="gsuit-header bg-primary w-100">
 			<a class="text-center text-md-left collapse-link {{ setting('collapse.g-suite') ? 'collapsed':'' }}" href="#gsuit" data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
-				<span class="gsuit-header__span">
-					G-SUITE:
-				</span>
-				Launch apps here
-				<span class="float-right mr-3">
-					<i class="fa fa-chevron-right"></i>
-					<i class="fa fa-chevron-down"></i>
+				<div class="row">
+					<div class="col-10">
+						<span class="gsuit-header__span">G-SUITE:</span>Launch apps here
+					</div>
+					
+					<div class="col-2 d-flex justify-content-center align-items-center">
+						<i class="fa fa-chevron-right"></i>
+						<i class="fa fa-chevron-down"></i>
+					</div>
+				</div>
 			</a>
-			</span>
 		</div>
 		<div id="gsuit" class="collapse {{ setting('collapse.g-suite') ? '':'show' }}">
 			<div class="gsuit-body bg-gray h-100">

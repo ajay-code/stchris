@@ -1,13 +1,15 @@
 <div class="border-primary h-100">
     <div class="twitter-header bg-primary w-100">
         <a class=" text-center text-md-left collapse-link {{ setting('collapse.twitter_feed') ? 'collapsed':'' }}" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="twitter-feed">
-            <span class="twitter-header__span">
-            TWITTER:
-            </span> Connect learn share
-            <span class="float-right mr-3">
-                <i class="fa fa-chevron-right"></i>
-                <i class="fa fa-chevron-down"></i>
-            </span>
+            <div class="row">
+                <div class="col-10 twitter-header__div">
+                    <span class="twitter-header__span">TWITTER:</span>Connect learn share
+                </div> 
+                <div class="col-2 d-flex justify-content-center align-items-center">
+                    <i class="fa fa-chevron-right"></i>
+                    <i class="fa fa-chevron-down"></i>
+                </div>
+            </div>
         </a>
     </div>
     <div id="twitter-feed" class="collapse {{ setting('collapse.twitter_feed') ? '':'show' }} h-100 d-flex justify-content-center">

@@ -3,13 +3,15 @@
 	<div class="accordion {{ (!$loop->last) ? 'mb-1': '' }}">
 		<div class="accordion__header bg-primary">
 			<a data-toggle="collapse" href="#collapse-id-{{$sidebar->id}}" aria-expanded="true" class="text-center text-md-left collapsed">
-				<span class="accordian__hearder__text">
-					{{ $sidebar->text }}
-				</span>
-				<span class="float-right mr-3">
-					<i class="fa fa-chevron-right"></i>
-					<i class="fa fa-chevron-down"></i>
-				</span>
+					<div class="row">
+						<div class="col-10 accordian__hearder__text">
+							{{ $sidebar->text }}
+						</div>
+						<div class="col-2 d-flex justify-content-center align-items-center">
+							<i class="fa fa-chevron-right"></i>
+							<i class="fa fa-chevron-down"></i>
+						</div>
+					</div>
 			</a>
 		</div>
 		<div id="collapse-id-{{$sidebar->id}}" class="collapse accordion__list">

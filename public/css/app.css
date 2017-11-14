@@ -9872,6 +9872,10 @@ nav {
   height: 97% !important;
 }
 
+#twitter-feed {
+  min-height: 500px;
+}
+
 /* 
     G-Suit
 */
@@ -10086,6 +10090,10 @@ nav {
 .accordion__list__item a {
   color: #7e7e7e;
   text-decoration: none;
+}
+
+.accordion__header a {
+  display: block;
 }
 
 .no-margin {

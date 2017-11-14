@@ -126,8 +126,7 @@ nav {
 
 .twitter-header {
     font-size: 12px;
-    color: #fff; // padding: 5px;
-    // padding-left: 15px;
+    color: #fff;
 }
 
 .twitter-header__span {
@@ -140,6 +139,10 @@ nav {
 }
 #twitter-feed iframe{
     height: 97% !important;
+    
+}
+#twitter-feed{
+    min-height: 500px;
 }
 
 /* 
@@ -345,4 +348,8 @@ nav {
         color: #7e7e7e;
         text-decoration: none;
     }
+}
+
+.accordion__header a{
+    display: block;
 }
