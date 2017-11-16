@@ -22,7 +22,7 @@
 		</div>
 		<div id="collapse-id-{{$sidebar->id}}" class="collapse-block collapse {{ $collapse ? '': 'show' }} accordion__list">
 			@foreach($sidebar->links as $link)
-			<div class="accordion__list__item border-top-primary">
+			<div class="accordion__list__item border-top-primary {{ ($loop->parent->last && $loop->last) ? 'border-bottom-primary':'' }}">
 					<a href="{{ $link->link ? $link->link :'#' }}" class="">
 						<i class="fa {{$link->font_class}}" style="color: {{$link->font_color}}"></i>
 						{{ $link->text }}

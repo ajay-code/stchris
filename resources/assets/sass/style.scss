@@ -417,3 +417,8 @@ $pixels:5px;
         padding-right: $pixels !important;
     }
 }
+@media (min-width: 768px) {.mb-md-0,
+.my-md-0 {
+    margin-bottom: 0 !important;
+}
+}

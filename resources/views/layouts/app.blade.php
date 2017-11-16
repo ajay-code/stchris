@@ -20,6 +20,9 @@
         .border-top-primary{
                 border-top: 1px {{setting('site.site_background')}} solid;
         }
+		.border-bottom-primary{
+                border-bottom: 1px {{setting('site.site_background')}} solid;
+        }
 	</style>
 </head>
 
