@@ -2,7 +2,7 @@
 	<!-- SCHOOL INFO -->
 	<div class="col-12 order-md-2 no-padding  border-primary  mb-1">
 		<div class="school-header bg-primary w-100">
-			<a class="text-center text-md-left collapse-link {{ setting('collapse.school-info') ? 'collapsed':'' }}" href="#school-info"
+			<a id="school-collapse" class="text-center text-md-left collapse-link {{ setting('collapse.school-info') ? 'collapsed':'' }}" href="#school-info"
 			    data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
 				<div class="row">
 					<div class="col-10 ">
@@ -18,12 +18,24 @@
 		<div id="school-info" class="collapse-block collapse show {{ setting('collapse.school-info') ? '':'show' }}">
 			<div class="school-body bg-gray h-100 d-flex justify-content-center align-content-center">
 				<div class="school-list">
-							@php $hiddenSchoolInformations = $schoolInformations->splice(15); @endphp @foreach($schoolInformations as $schoolInformation)
+					@php 
+						$hiddenSchoolInformations = $schoolInformations->splice(18); 
+					@endphp 
+					@foreach($schoolInformations as $schoolInformation)
+						@if($loop->iteration == 13)
+							@php
+								$md_school = true;
+							@endphp
+							<span class="hide-md-collapse">
+						@endif
 					<a class="school-list__item mt-1 text-center" target="_blank" href="{{$schoolInformation->link}}">
 						<img class="school-list__item__image" src="{{Voyager::image($schoolInformation->image)}}" alt="">
 						<p class="school-list__item__text color-gray ">{{$schoolInformation->text}}</p>
 					</a>
 					@endforeach
+					@if(isset($md_school))
+						</span>
+					@endif
 
 					<span id="hidden-school-icons" class="collapse">
 						@foreach($hiddenSchoolInformations as $hiddenSchoolInformation)
@@ -36,7 +48,7 @@
 				</div>
 			</div>
 			<div class="school-footer bg-white w-100 text-right d-none d-md-block">
-				<a class="more-less collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
+				<a class="more-less more-less-school collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
 					<span class="more">More Docs</span>
 					<span class="less">Less Docs</span>
 					<i class="fa fa-chevron-right"></i>
@@ -65,7 +77,11 @@
 		<div id="gsuit" class="collapse-block collapse show {{ setting('collapse.g-suite') ? '':'show' }}">
 			<div class="gsuit-body bg-gray h-100">
 				<div class="gsuit-list">
-					@php $hiddenGsuites = $gsuites->splice(8); @endphp @foreach($gsuites as $gsuite)
+					@php 
+						$hiddenGsuites = $gsuites->splice(12); 
+					@endphp 
+					@foreach($gsuites as $gsuite)
+						
 					<a class="gsuit-list__item mt-1 text-center" target="_blank" href="{{$gsuite->link}}">
 						<img class="gsuit-list__item__image" src="{{Voyager::image($gsuite->image)}}" alt="">
 						<p class="gsuit-list__item__text color-gray ">{{$gsuite->text}}</p>

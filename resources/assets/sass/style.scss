@@ -262,14 +262,11 @@ nav {
 }
 
 .school-list__item {
-    // padding: 5px;
     height: 105px;
-    // width: calc(100% - 4px);
     width: 90px;
     margin-right: 4px;
     background-color: #fff;
     display: block;
-    // margin-left: 4px;
     float: left;
     text-decoration: none !important;
     &:hover {
@@ -290,6 +287,7 @@ nav {
     margin-right: auto;
     margin-bottom: 0;
 }
+
 
 #hidden-school-icons.show {
     display: inline !important;
@@ -334,9 +332,9 @@ nav {
     color: #fff;
     a {
         padding-left: 15px;
-        min-height: 40px;
+        min-height: 30px;
         position: relative;
-        padding-top: 10px;
+        padding-top: 0;
         display: block;
         height: 100%;
         width: 100%;

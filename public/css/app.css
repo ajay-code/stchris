@@ -10072,9 +10072,9 @@ nav {
 
 .accordion__header a {
   padding-left: 15px;
-  min-height: 40px;
+  min-height: 30px;
   position: relative;
-  padding-top: 10px;
+  padding-top: 0;
   display: block;
   height: 100%;
   width: 100%;
