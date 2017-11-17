@@ -15,9 +15,9 @@ class MainController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(){
-        $gsuites = Gsuite::orderBy('order', 'asc')->get();
-        $schoolInformations = SchoolInformation::orderBy('order', 'asc')->get();
-        $sidebars = Sidebar::orderBy('order', 'asc')->get();
+        $gsuites = Gsuite::orderBy(\DB::raw('-`order`'), 'desc')->get();
+        $schoolInformations = SchoolInformation::orderBy(\DB::raw('-`order`'), 'desc')->get();
+        $sidebars = Sidebar::orderBy(\DB::raw('-`order`'), 'desc')->get();
         return view('index', compact('gsuites', 'schoolInformations', 'sidebars'));
     }
 }
