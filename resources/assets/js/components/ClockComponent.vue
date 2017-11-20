@@ -26,7 +26,7 @@ export default {
           return moment(this.dateTime).tz(this.tz).format('HH:mm');
       },
       date(){
-          return moment(this.dateTime).tz(this.tz).format('DD MMMM, YYYY');
+          return moment(this.dateTime).tz(this.tz).format('DD MMMM YYYY');
       },
       day(){
           return moment(this.dateTime).tz(this.tz).format('dddd');

@@ -9922,7 +9922,7 @@ nav {
 .gsuit-list__item {
   padding: 5px;
   width: 90px;
-  height: 105px;
+  height: 118px;
   background-color: #fff;
   display: block;
   margin-left: 4px;
@@ -9937,7 +9937,7 @@ nav {
 
 .gsuit-list__item__image {
   width: 64px;
-  height: 64px;
+  height: 76px;
 }
 
 .gsuit-list__item__text {
@@ -10002,7 +10002,8 @@ nav {
 }
 
 .school-list__item {
-  height: 105px;
+  padding-top: 10px;
+  height: 110px;
   width: 90px;
   margin-right: 4px;
   background-color: #fff;

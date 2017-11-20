@@ -46792,7 +46792,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       return moment(this.dateTime).tz(this.tz).format('HH:mm');
     },
     date: function date() {
-      return moment(this.dateTime).tz(this.tz).format('DD MMMM, YYYY');
+      return moment(this.dateTime).tz(this.tz).format('DD MMMM YYYY');
     },
     day: function day() {
       return moment(this.dateTime).tz(this.tz).format('dddd');
