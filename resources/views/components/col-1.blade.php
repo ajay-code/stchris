@@ -3,7 +3,7 @@
         <a class=" text-center text-md-left collapse-link" href="#twitter-feed" data-toggle="collapse" aria-expanded="false" aria-controls="twitter-feed">
             <div class="row">
                 <div class="col-10 twitter-header__div">
-                    <span class="twitter-header__span">TWITTER:</span>Connect learn share
+                    <span class="twitter-header__span">TWITTER:</span> Connect learn share
                 </div> 
                 <div class="col-2 d-flex justify-content-center align-items-center chevron-container">
                     <i class="fa fa-chevron-right"></i>

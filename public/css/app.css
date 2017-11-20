@@ -10095,11 +10095,15 @@ nav {
   }
 }
 
+.accordian__hearder__text {
+  font-weight: bold;
+}
+
 .accordion__list__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 12px;
+  font-size: 13px;
   padding-left: 10px;
   min-height: 40px;
   line-height: 40px;
@@ -10175,6 +10179,10 @@ nav {
 .chevron-container i {
   position: absolute;
   right: 18px;
+}
+
+.pr-10 {
+  padding-right: 10px;
 }
 
 .no-margin {

@@ -354,11 +354,13 @@ nav {
         min-height: 30px;
     }
 }
-
+.accordian__hearder__text{
+    font-weight: bold;
+}
 // .accordion__list {}
 .accordion__list__item {
     display: flex;
-    font-size: 12px;
+    font-size: 13px;
     padding-left: 10px;
     min-height: 40px;
     line-height: 40px;
@@ -429,4 +431,8 @@ $pixels:5px;
       position: absolute;
       right: 18px;
     }
+}
+
+.pr-10{
+    padding-right: 10px;
 }

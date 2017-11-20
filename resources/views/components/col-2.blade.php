@@ -47,7 +47,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="school-footer bg-white w-100 text-right d-none d-md-block">
+			<div class="school-footer bg-white w-100 text-right d-none d-md-block pr-10">
 				<a class="more-less more-less-school collapsed" href="#hidden-school-icons" data-toggle="collapse" aria-expanded="false">
 					<span class="more">More Docs</span>
 					<span class="less">Less Docs</span>
@@ -64,7 +64,7 @@
 			    aria-expanded="false" aria-controls="gsuit">
 				<div class="row">
 					<div class="col-10">
-						<span class="gsuit-header__span">G-SUITE:</span>Launch apps here
+						<span class="gsuit-header__span">G-SUITE:</span> Launch apps here
 					</div>
 
 					<div class="col-2 d-flex justify-content-center align-items-center chevron-container">
@@ -98,7 +98,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="gsuit-footer bg-white w-100 text-right d-none d-md-block">
+			<div class="gsuit-footer bg-white w-100 text-right d-none d-md-block pr-10">
 				<a class="more-less collapsed" href="#hidden-gsuit-icons" data-toggle="collapse" aria-expanded="false">
 					<span class="more">More Apps</span>
 					<span class="less">Less Apps</span>
