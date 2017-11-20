@@ -2,20 +2,20 @@
 	<!-- SCHOOL INFO -->
 	<div class="col-12 order-md-2 no-padding  border-primary  mb-1">
 		<div class="school-header bg-primary w-100">
-			<a id="school-collapse" class="text-center text-md-left collapse-link {{ setting('collapse.school-info') ? 'collapsed':'' }}" href="#school-info"
+			<a id="school-collapse" class="text-center text-md-left collapse-link" href="#school-info"
 			    data-toggle="collapse" aria-expanded="false" aria-controls="gsuit">
 				<div class="row">
 					<div class="col-10 ">
 						<span class="school-header__span">SCHOOL INFO:</span> Sign-in to view
 					</div>
-					<div class="col-2 d-flex justify-content-center align-items-center">
+					<div class="col-2 d-flex justify-content-center align-items-center chevron-container">
 						<i class="fa fa-chevron-right"></i>
 						<i class="fa fa-chevron-down"></i>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div id="school-info" class="collapse-block collapse show {{ setting('collapse.school-info') ? '':'show' }}">
+		<div id="school-info" class="collapse-block collapse show">
 			<div class="school-body bg-gray h-100 d-flex justify-content-center align-content-center">
 				<div class="school-list">
 					@php 
@@ -60,21 +60,21 @@
 	<!-- GSUIT -->
 	<div class="col-12 order-md-1 no-padding border-primary mb-1">
 		<div class="gsuit-header bg-primary w-100">
-			<a class="text-center text-md-left collapse-link {{ setting('collapse.g-suite') ? 'collapsed':'' }}" href="#gsuit" data-toggle="collapse"
+			<a class="text-center text-md-left collapse-link" href="#gsuit" data-toggle="collapse"
 			    aria-expanded="false" aria-controls="gsuit">
 				<div class="row">
 					<div class="col-10">
 						<span class="gsuit-header__span">G-SUITE:</span>Launch apps here
 					</div>
 
-					<div class="col-2 d-flex justify-content-center align-items-center">
+					<div class="col-2 d-flex justify-content-center align-items-center chevron-container">
 						<i class="fa fa-chevron-right"></i>
 						<i class="fa fa-chevron-down"></i>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div id="gsuit" class="collapse-block collapse show {{ setting('collapse.g-suite') ? '':'show' }}">
+		<div id="gsuit" class="collapse-block collapse show">
 			<div class="gsuit-body bg-gray h-100">
 				<div class="gsuit-list">
 					@php 

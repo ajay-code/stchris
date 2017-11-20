@@ -13,7 +13,7 @@
 						<div class="col-10 accordian__hearder__text">
 							{{ $sidebar->text }}
 						</div>
-						<div class="col-2 d-flex justify-content-center align-items-center">
+						<div class="col-2 d-flex justify-content-center align-items-center chevron-container">
 							<i class="fa fa-chevron-right"></i>
 							<i class="fa fa-chevron-down"></i>
 						</div>
