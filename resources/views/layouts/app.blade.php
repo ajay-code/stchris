@@ -17,12 +17,15 @@
 		.border-primary {
 			border: 1px {{setting('site.site_background')}} solid !important;
 		}
-        .border-top-primary{
-                border-top: 1px {{setting('site.site_background')}} solid;
-        }
+		.border-top-primary{
+			border-top: 1px {{setting('site.site_background')}} solid;
+		}
 		.border-bottom-primary{
-                border-bottom: 1px {{setting('site.site_background')}} solid;
-        }
+			border-bottom: 1px {{setting('site.site_background')}} solid;
+		}
+		.primary-color{
+			color: {{setting('site.site_background')}} !important;
+		}
 	</style>
 </head>
 
