@@ -3,7 +3,11 @@
         <div class="col-md-6 no-padding">
             <div class="row no-gutters">
                 <div class="col-4 col-sm-4 col-md-2 logo">
-                    <img src="/icons/logo.png" alt="Logo" class="img-fluid logo__image">
+                    @if(setting('site.logo'))
+                        <img src="{{url('/storage/'.setting('site.logo'))}}" alt="Logo" class="img-fluid logo__image">
+                    @else
+                        <img src="/icons/logo.png" alt="Logo" class="img-fluid logo__image">
+                    @endif
                 </div>
                 <div id="app" class="col-8 col-sm-8 col-md-10">
                     <clock></clock>
