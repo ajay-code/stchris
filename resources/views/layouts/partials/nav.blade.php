@@ -2,11 +2,11 @@
     <div class="row no-gutters">
         <div class="col-md-6 no-padding">
             <div class="row no-gutters">
-                <div class="col-4 col-sm-4 col-md-2 logo">
+                <div class="col-4 col-sm-4 col-md-2 logo d-flex justify-content-left align-items-center">
                     @if(setting('site.logo'))
-                        <img src="{{url('/storage/'.setting('site.logo'))}}" alt="Logo" class="img-fluid logo__image">
+                        <img src="{{url('/storage/'.setting('site.logo'))}}" alt="Logo" class="img-fluid ">
                     @else
-                        <img src="/icons/logo.png" alt="Logo" class="img-fluid logo__image">
+                        <img src="/icons/logo.png" alt="Logo" class="img-fluid ">
                     @endif
                 </div>
                 <div id="app" class="col-8 col-sm-8 col-md-10">
