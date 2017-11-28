@@ -12,9 +12,9 @@
             </div>
         </a>
     </div>
-    <div id="twitter-feed" class="collapse-block collapse show h-100 d-flex justify-content-center">
+    <div id="twitter-feed" class="collapse-block collapse show d-flex justify-content-center">
         <a class="twitter-timeline" href="https://twitter.com/search?q={{setting('twitter.twitter_feed')}}" data-widget-id="{{setting('twitter.twitter_widget_id')}}"
-            data-height="{{setting('twitter.twitter_feed_height')}}" data-chrome="noheader notransparent noscrollbar" data-hide_thread="false" data-lang="eng" data-status="true"
+             data-chrome="noheader notransparent noscrollbar" data-hide_thread="false" data-lang="eng" data-status="true"
             data-conversation="parent" data-chrome="nofooter">Tweets about {{setting('twitter.twitter_feed')}}</a>
     </div>
     <script>

@@ -9881,11 +9881,16 @@ nav {
 }
 
 #twitter-feed iframe {
-  height: 97% !important;
+  height: auto !important;
+  max-height: 100%;
+  overflow-y: scroll;
 }
 
 #twitter-feed {
   min-height: 500px;
+  height: calc(100% - 31px);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* 
